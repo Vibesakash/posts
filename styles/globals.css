@@ -1,0 +1,61 @@
+
+
+.page-wrapper{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: 100vh;
+}
+.posts-area{
+  flex: 60;
+  height: 100%;
+  border: 1px solid black;
+}
+.profile-area{
+  flex: 20;
+  height: 100%;
+  border-right: 1px solid black;
+}
+.login-area{
+  flex: 20;
+  height: 100%;
+}
+.box-text-description, .user-decription{
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+  color: whitesmoke;
+}
+.post-heading, .user-profile-name{
+  color:rgb(102, 178, 255);
+}
+.navigation-ul li{
+  display: block;
+  margin: 15px auto;
+  list-style: none;
+  
+}
+.navigation-ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.profile{
+  overflow: hidden;
+}
+.user-profile{
+
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.user-profile-name{
+  margin-block: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
